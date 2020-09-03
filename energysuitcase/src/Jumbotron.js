@@ -8,7 +8,7 @@ const Styles = styled.div`
 background: url(${backgroundImage}) no-repeat fixed bottom;
 background-size: cover;
 // color:#ccc
- height:430px;
+ height:380px;
 position:relative;
 // z-index -2;
 margin-bottom: 0px ;
@@ -30,9 +30,21 @@ margin-bottom: 0px ;
 
 }
 .projectName{
+   left:20% ;
+   
     
     
-    
+}
+.groupName{
+    float:right
+
+   
+  
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
 }
 `;
 export const Jumbotron = () =>(
@@ -43,10 +55,15 @@ export const Jumbotron = () =>(
 <br></br>
 <hr></hr>
 <Container>
-    <div>
+    <div className = "wrapper">
     <img className="ramimage"src ={csuimage}></img>
-    
-    <h1 className ="projectName">Energy Backpack</h1>
+    <p className ="groupName">
+        <br></br>
+        <br></br>
+        <br></br>
+     <h1>Colorado Sate University</h1>
+    <h1 className ="projectName">{`\xa0\xa0\xa0\xa0\xa0\xa0\Energy Backpack`}</h1> 
+    </p>
     </div>
 </Container>
 <hr></hr>
