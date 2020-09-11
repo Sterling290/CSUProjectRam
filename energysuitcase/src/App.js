@@ -7,22 +7,20 @@ import styled from 'styled-components';
 import { render } from '@testing-library/react';
 import {Container} from 'react-bootstrap';
 import {Home} from './pages/home.js';
- import {Team} from './pages/Team.js';
+import {Team} from './pages/Team.js';
 import {Timeline} from './pages/Timeline.js';
 import {NoMatch} from './navigation/nomatch.js';
 import {Layout} from './navigation/Layout.js';
-import {Gallery} from './pages/Gallery.js';
+import {Carousell} from './pages/Gallery.js';
 import {NavigationBar} from './navigation/navigationbar.js';
 
 const Styles = styled.div`
 .App{
-
+  padding-left:0;
 }
-.main{
+.main{ 
   background-color:rgb(51,80,25);
-  // background: #263238;
-  
-
+  //background: #263238;
 }
 `
 
@@ -55,7 +53,7 @@ class  App extends React.Component  {
      <Route exact path="/" component={Home} />
      <Route path="/team" component={Team} />
      <Route path="/timeline" component={Timeline} />
-     <Route path="/gallery" component={Gallery} /> 
+     <Route path="/gallery" component={Carousell} /> 
      <Route component={NoMatch} /> 
      </Switch>
      </Router>

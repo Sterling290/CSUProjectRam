@@ -52,7 +52,6 @@ export const Jumbotron = () =>(
 <Jumbo fluid className="jumbo">
 
 <div className="overlay"></div>
-<br></br>
 <hr></hr>
 <Container>
     <div className = "wrapper">
@@ -66,7 +65,9 @@ export const Jumbotron = () =>(
     </p>
     </div>
 </Container>
+
 <hr></hr>
+<br></br>
 </Jumbo>
 </Styles>
 
