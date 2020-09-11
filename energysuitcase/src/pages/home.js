@@ -10,6 +10,10 @@ const Styles = styled.div`
 .title{ 
     background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(250,250,250,1));
     //background-color:rgb(122,122,122);
+    border: solid 1px #CCC;
+    -moz-box-shadow: 5px 5px 0px #999;
+    -webkit-box-shadow: 5px 5px 0px #999;
+        box-shadow: 5px 5px 0px #999;
 }
 .paraghgraph{
 padding:1%;

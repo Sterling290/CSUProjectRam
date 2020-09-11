@@ -30,13 +30,15 @@ margin-bottom: 0px ;
 
 }
 .projectName{
-   left:20% ;
+    margin: auto;
    
     
     
 }
 .groupName{
-    float:right
+    float:right;
+  
+   
 
    
   
@@ -61,13 +63,13 @@ export const Jumbotron = () =>(
         <br></br>
         <br></br>
      <h1>Colorado Sate University</h1>
-    <h1 className ="projectName">{`\xa0\xa0\xa0\xa0\xa0\xa0\Energy Backpack`}</h1> 
+    <h1 className ="projectName">{`\xa0\xa0\xa0\xa0\xa0Energy Backpack`}</h1> 
     </p>
     </div>
 </Container>
 
 <hr></hr>
-<br></br>
+
 </Jumbo>
 </Styles>
 
