@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import images from './pageImages/img_Main.png'
 import battery from './battery.png'
 import energy from './energylogo.png'
-import logo from './smallerlogo.png'
+import logo from './suitcase.png'
 const Styles = styled.div`
 
 .homepage{
@@ -55,7 +55,7 @@ font-size:20px;
  -webkit-mask-image:webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,1)),color-stop(50%,rgba(0,0,0,5)),to(rgba(0,0,0,1)));
 }
 .header:after{
-    content:'Back pack';
+    content:'Suitcase';
     color:#d6d6d6;
     text-shadow: 0 1px 0 white;
 }
@@ -95,9 +95,9 @@ export const Home = () =>(
     </h1>
     </div>
      */}
-         {/* <h1 className="header">
+         <h1 className="header">
        <a>Energy</a> 
-         </h1> */}
+         </h1>
      <img className="energylogo" src={logo}></img>
 
      <hr></hr>
