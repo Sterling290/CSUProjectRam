@@ -12,6 +12,7 @@ import {Timeline} from './pages/Timeline.js';
 import {NoMatch} from './navigation/nomatch.js';
 import {Layout} from './navigation/Layout.js';
 import {Carousell} from './pages/Gallery.js';
+import {Documents} from './pages/documents.js';
 import {NavigationBar} from './navigation/navigationbar.js';
 
 const Styles = styled.div`
@@ -54,6 +55,7 @@ class  App extends React.Component  {
      <Route path="/team" component={Team} />
      <Route path="/timeline" component={Timeline} />
      <Route path="/gallery" component={Carousell} /> 
+     <Route path="/document" component={Documents} /> 
      <Route component={NoMatch} /> 
      </Switch>
      </Router>
