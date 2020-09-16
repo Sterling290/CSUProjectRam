@@ -63,7 +63,7 @@ export const Jumbotron = () =>(
         <br></br>
         <br></br>
      <h1>Colorado Sate University</h1>
-    <h1 className ="projectName">{`\xa0\xa0\xa0\xa0\xa0Energy Backpack`}</h1> 
+    <h1 className ="projectName">{`\xa0\xa0\xa0\xa0\xa0Energy Suitcase`}</h1> 
     </p>
     </div>
 </Container>
